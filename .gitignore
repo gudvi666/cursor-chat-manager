@@ -1,0 +1,19 @@
+# Python 产物
+__pycache__/
+*.py[cod]
+*.spec
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# 说明：tauri/ 子目录有自己的 .gitignore，负责排除 node_modules / dist / src-tauri/target
